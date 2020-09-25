@@ -1,8 +1,5 @@
 package javase;
 
-class Temp {
+class Class {
 
-	String String = " ";
-	String = " ";
-	
 }

@@ -1,9 +1,9 @@
-package javase.basic;
+package javase.chapter1;
 //Java 11 official first application
 class Test {
 	public static void main(String[] args) {
 		for (int i = 0; i < args.length; i++)
-			System.out.print(i == 0 ? args[i] : " " + args[i]);
+			System . out . print(i == 0 ? args[i] : " " + args[i]);
 		System.out.println();
 	}
 }
