@@ -1,4 +1,4 @@
-package nlp;
+package javase.phD.countwordFile;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,11 +8,16 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/***
+ * 
+ * @author Umit Kanoglu find each word count in a corpus file duration for
+ *         826.680 words is 12 hours
+ */
 public class CountWordFile {
 
-	static String corpusFile = "files/corpus.txt";
-	static String countFile = "files/wordcounts.txt";
-	static String tempFile1 = "files/myTempFile.txt";
+	static String corpusFile = "files/corpus.txt"; // input file
+	static String countFile = "files/wordcounts.txt"; // output file
+	static String tempFile1 = "files/myTempFile.txt"; // temp file
 
 	public static void main(String[] args) throws Exception {
 		String line;
@@ -43,7 +48,7 @@ public class CountWordFile {
 
 		File inputFile = new File(countFile);
 		File tempFile = new File(tempFile1);
-		
+
 		BufferedReader reader = null;
 		BufferedWriter writer = null;
 		PrintWriter pw = null;
@@ -60,18 +65,18 @@ public class CountWordFile {
 			// trim newline when comparing with lineToRemove
 			String trimmedLine = currentLine.trim();
 			words = trimmedLine.split(" ");
-			if (words[0].trim().equals(word.trim()) ) {
+			if (words[0].trim().equals(word.trim())) {
 				count = Integer.parseInt(words[1]);
 				pw.println(word + " " + (++count));
 				continue;
 			}
 			pw.println(currentLine);
 		}
-		
+
 		if (count == 0) {
 			pw.println(word + " " + (++count));
 		}
-		
+
 		pw.close();
 		writer.close();
 		reader.close();
