@@ -2,7 +2,6 @@
 
 ## Programmers
 * Ümit KANOĞLU
-* Can DOLAŞ
 
 ## Starting
 * programming language; java
