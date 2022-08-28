@@ -1,2 +1,2 @@
-### Hi there 👋
-🌱 
+# Java
+## Projects developed for academic studies
