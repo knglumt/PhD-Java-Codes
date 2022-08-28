@@ -1,5 +1,4 @@
 # Project
-# CS 554.TT : Introduction to Machine Learning and Artificial Neural Networks
 # Ümit KANOĞLU
 
 # AdaBoost: Adaptive Boosting Classifier
