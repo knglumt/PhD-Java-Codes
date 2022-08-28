@@ -13,7 +13,6 @@ Test > Classifier > AdaBoostTest.py
 
 Updated classes:
 InstanceList > InstanceList.py
-	Added functions:
-	attributeClassDistributionWeighted
-	discreteIndexedAttributeClassDistributionWeighted
-
+Added functions:
+attributeClassDistributionWeighted
+discreteIndexedAttributeClassDistributionWeighted
