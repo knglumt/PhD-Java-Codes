@@ -13,6 +13,6 @@
 
 ## Updated classes:
 * InstanceList > InstanceList.py
-## Added functions:
+# Added functions:
 * attributeClassDistributionWeighted
 * discreteIndexedAttributeClassDistributionWeighted
