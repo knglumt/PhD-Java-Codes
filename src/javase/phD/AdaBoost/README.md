@@ -1,18 +1,18 @@
-# Project
-# Ümit KANOĞLU
+## ML Project
+* Ümit KANOĞLU
 
-# AdaBoost: Adaptive Boosting Classifier
-# Implemented using parent classes in the repository below.
-# https://github.com/StarlangSoftware/Classification-Py
+## AdaBoost: Adaptive Boosting Classifier
+* Implemented using parent classes in the repository below.
+* https://github.com/StarlangSoftware/Classification-Py
 
-# Added classes:
-# Classifier > AdaBoost.py
-# Model > AdaBoostModel.py
-# Model > DecisionTree > DecisionNodeWeighted.py
-# Test > Classifier > AdaBoostTest.py
+## Added classes:
+* Classifier > AdaBoost.py
+* Model > AdaBoostModel.py
+* Model > DecisionTree > DecisionNodeWeighted.py
+* Test > Classifier > AdaBoostTest.py
 
-# Updated classes:
-# InstanceList > InstanceList.py
-# Added functions:
-# attributeClassDistributionWeighted
-# discreteIndexedAttributeClassDistributionWeighted
+## Updated classes:
+* InstanceList > InstanceList.py
+## Added functions:
+* attributeClassDistributionWeighted
+* discreteIndexedAttributeClassDistributionWeighted
